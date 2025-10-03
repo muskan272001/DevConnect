@@ -63,7 +63,8 @@ DevConnect is a comprehensive web platform designed to bridge the gap between ta
 ## 📸 Screenshots
 
 ### Landing Page
-![Landing Page Desktop](screenshots/landing-desktop.png)
+<img width="1648" height="885" alt="image" src="https://github.com/user-attachments/assets/1471135a-faa3-43a6-8ec8-3d742ece4cc8" />
+
 *Modern landing page with gradient design and search functionality*
 
 ![Landing Page Mobile](screenshots/landing-mobile.png)
@@ -182,78 +183,7 @@ src/
 ├── App.tsx              # Main app component with routing
 ├── main.tsx             # Application entry point
 └── index.css            # Global styles and Tailwind imports
-```
-
----
-
-## 🔧 Key Components
-
-### 1. Theme Management
-```typescript
-// ThemeContext.tsx - Global theme state management
-const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-  
-  const toggleTheme = () => {
-    setIsDarkMode(!isDarkMode);
-    document.documentElement.classList.toggle('dark');
-    localStorage.setItem('theme', !isDarkMode ? 'dark' : 'light');
-  };
-  
-  return (
-    <ThemeContext.Provider value={{ isDarkMode, toggleTheme }}>
-      {children}
-    </ThemeContext.Provider>
-  );
-};
-```
-
-### 2. Animated Logo Component
-```typescript
-// AnimatedLogo.tsx - Interactive logo with animations
-const AnimatedLogo: React.FC = () => {
-  return (
-    <div className="flex items-center gap-3 group cursor-pointer">
-      <div className="relative">
-        <div className="absolute inset-0 bg-gradient-to-r from-teal-400 to-blue-500 rounded-xl blur-lg opacity-75 group-hover:opacity-100 transition-opacity duration-300"></div>
-        <div className="relative bg-gradient-to-r from-teal-500 to-blue-600 p-3 rounded-xl transform group-hover:scale-110 transition-transform duration-300">
-          <Code2 className="w-8 h-8 text-white animate-pulse" />
-        </div>
-      </div>
-      <div className="flex flex-col">
-        <h1 className="text-2xl font-bold bg-gradient-to-r from-teal-600 to-blue-600 bg-clip-text text-transparent">
-          DevConnect
-        </h1>
-        <p className="text-sm text-gray-500 -mt-1">Connect & Build</p>
-      </div>
-    </div>
-  );
-};
-```
-
-### 3. Form Validation
-```typescript
-// Form validation with real-time error handling
-const validateForm = () => {
-  const newErrors: Record<string, string> = {};
-  
-  if (!formData.email) {
-    newErrors.email = 'Email is required';
-  } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-    newErrors.email = 'Invalid email format';
-  }
-  
-  if (!formData.password || formData.password.length < 6) {
-    newErrors.password = 'Password must be at least 6 characters';
-  }
-  
-  setErrors(newErrors);
-  return Object.keys(newErrors).length === 0;
-};
-```
-
----
-
+``
 ## 🎨 Design System
 
 ### Color Palette
@@ -271,17 +201,6 @@ const validateForm = () => {
 - **8px Grid**: Consistent spacing throughout the application
 - **Responsive Containers**: Fluid layouts with max-width constraints
 - **Visual Hierarchy**: Systematic padding and margins
-
-### Responsive Breakpoints
-```css
-/* Mobile First Approach */
-sm: 640px   /* Small devices */
-md: 768px   /* Medium devices */
-lg: 1024px  /* Large devices */
-xl: 1280px  /* Extra large devices */
-```
-
----
 
 ## 🤝 Contributing
 
@@ -320,7 +239,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  <p>Made with ❤️ by [Muskan]</p>
+  <p>Made with ❤️ by Muskan </p>
   <p>⭐ Star this repo if you found it helpful!</p>
 </div>
 
