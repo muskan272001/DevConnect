@@ -22,7 +22,6 @@
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
-- [Key Components](#key-components)
 - [Design System](#design-system)
 - [Contributing](#contributing)
 - [License](#license)
@@ -67,37 +66,28 @@ DevConnect is a comprehensive web platform designed to bridge the gap between ta
 
 *Modern landing page with gradient design and search functionality*
 
-![Landing Page Mobile](screenshots/landing-mobile.png)
+<img width="600" height="856" alt="image" src="https://github.com/user-attachments/assets/839278ab-0532-417c-b85f-8a9334ef09e4" />
+
 *Responsive mobile design with optimized layout*
 
 ### User Selection
-![User Selection](screenshots/user-selection.png)
+<img width="917" height="840" alt="image" src="https://github.com/user-attachments/assets/f66600ec-846f-4c16-b886-1bb3780b55a8" />
+
 *Interactive cards for choosing between Developer and User roles*
 
-### Authentication
-![Developer Login](screenshots/developer-login.png)
-*Clean login interface with form validation*
+<img width="452" height="706" alt="image" src="https://github.com/user-attachments/assets/b7eaaaa3-ab02-419f-bbf1-0017afc48ff9" />
 
-![Developer Signup](screenshots/developer-signup.png)
 *Comprehensive signup form with tech stack selection*
 
 ### Developer Dashboard
-![Dashboard Overview](screenshots/dashboard-overview.png)
+<img width="1854" height="912" alt="image" src="https://github.com/user-attachments/assets/15ba5714-6a3d-4cb3-af8a-6a0fd7c813d9" />
+
 *Feature-rich dashboard with project statistics and management*
 
-![Dashboard Profile](screenshots/dashboard-profile.png)
+<img width="1710" height="889" alt="image" src="https://github.com/user-attachments/assets/ceec160a-2eb4-4e24-9f90-5fcc53dce750" />
+
 *Developer profile management with skills and portfolio*
 
-### Dark Mode
-![Dark Mode Landing](screenshots/dark-mode-landing.png)
-*Beautiful dark theme implementation*
-
-![Dark Mode Dashboard](screenshots/dark-mode-dashboard.png)
-*Consistent dark mode across all components*
-
-### Mobile Responsive
-![Mobile Dashboard](screenshots/mobile-dashboard.png)
-*Fully responsive dashboard with mobile navigation*
 
 ---
 
